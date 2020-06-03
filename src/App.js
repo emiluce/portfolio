@@ -1,8 +1,15 @@
 import React from "react";
+import { Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
+import Home from "./pages/Home";
 
 const App = () => (
   <div className="app">
-    <h1>Hello world</h1>
+    <Router>
+      <Switch>
+        <Route exact path="/" component={Home} />
+      </Switch>
+    </Router>
   </div>
 );
 
