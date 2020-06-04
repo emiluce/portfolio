@@ -1,0 +1,32 @@
+.atf {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+
+
+
+
+.introduction {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.5rem;
+  
+
+  h1{
+  font-family: Futura Md BT;
+  color: #838383;
+}
+.btn{
+  background-color: #FF2B2B;
+  font-family: lato;
+  color: white;
+  padding: 0.5rem;
+  font-size: 18px;
+  margin-top: 1rem;
+}
+
+}
+}

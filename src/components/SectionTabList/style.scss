@@ -1,0 +1,15 @@
+.sectionTabList {
+  padding: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10rem;
+  row-gap: 3rem;
+ 
+  
+}
+h2{
+  font-family: Futura Md BT;
+  color: #838383;
+  margin-left: 1.5rem;
+  
+}
