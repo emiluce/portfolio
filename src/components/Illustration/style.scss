@@ -1,27 +1,15 @@
 .illustration {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0px;
-  margin: 0;
-  position: relative;
-  
+display: flex;
+justify-content: space-around;
 
   .illustrationRed {
-    position: relative;
-    display: flex;
-    justify-content: end;
-    margin-right: 0px;
-  
 
   }
+
   .illustrationWireframe {
     position: absolute;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: end;
-    align-items: flex-end;
+  margin: 1rem;
+
 
   }
 }

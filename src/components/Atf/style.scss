@@ -2,7 +2,8 @@
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-
+display: grid;
+grid-template-columns: repeat(2, 1fr);
 
 
 
@@ -13,20 +14,47 @@ justify-content: space-between;
   flex-direction: column;
   justify-content: center;
   padding: 1.5rem;
+  animation: upInterval2 1s ease-in-out alternate;
   
 
   h1{
   font-family: Futura Md BT;
   color: #838383;
 }
-.btn{
+
+
+.btn {
   background-color: #FF2B2B;
   font-family: lato;
   color: white;
   padding: 0.5rem;
   font-size: 18px;
   margin-top: 1rem;
+&:hover {
+background-color: black;
+}
+  a {
+    text-decoration: none;
+  
+  }
 }
 
 }
+
+
+
+
+
+}
+
+
+@keyframes upInterval2 {
+  0% {
+    transform: translate(0, 150px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
 }

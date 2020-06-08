@@ -1,20 +1,20 @@
-.section {
+.sectionCode {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 4px;
   margin: 0 0.25rem;
-  max-width: 300px;
+  max-width: 500px;
   width:100%;
 
-  .overlay {
-    height: 200px;
+  .overlayCode {
+    height: 300px;
     border-radius: 4px;
 
-    .sectionTab {
+    .sectionTabCode {
       background: rgba(0, 0, 0, 0.44);
-      max-width: 300px;
-      height: 200px;
+      max-width: 500px;
+      height: 300px;
       border-radius: 4px;
       display: flex;
       justify-content: center;
@@ -26,15 +26,15 @@
       }
     }
 
-    .sectionTabText {
+    .sectionTabTextCode {
       font-weight: 500;
-      font-size: 150%;
+      font-size: 30px;
       text-align: center;
       color: white;
       
       &:hover {
-    
-        font-size:170%;
+        
+        font-size:200%;
       }
 
     }

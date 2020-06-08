@@ -1,0 +1,30 @@
+.numberParagraph {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+
+.number {
+  font-family: Lato;
+  font-weight: 500;
+font-size: 144px;
+line-height: 173px;
+color: transparent;
+-webkit-text-stroke: 1px #B1B1B1;
+
+}
+
+.paragraphText{
+  color: #FF2B2B;
+  font-size: 36px;
+  position: absolute;
+  
+  
+}
+
+
+} 
+
+.paragraphImage {
+  max-width: 500px;
+}

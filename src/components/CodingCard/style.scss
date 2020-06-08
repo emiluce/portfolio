@@ -1,12 +1,12 @@
-.sectionTabList {
+.codingCard {
   padding: 1.5rem;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   column-gap: 3rem;
   row-gap: 3rem;
   width: 100%;
 
-  .sectionTabLink {
+  a {
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -14,12 +14,11 @@
     width: 100%;
   }
 }
-
+  
 
 h2{
   font-family: Futura Md BT;
   color: #838383;
-  margin-left: 3rem;
-  
+  margin-left: 1.5rem;
   
 }
