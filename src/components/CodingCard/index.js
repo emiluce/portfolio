@@ -9,7 +9,7 @@ const CodingCard = () => {
         <h2>Websites</h2>
       </div>
       <div className="codingCard">
-        <a href="/vantea">
+        <a href="">
           <Coding
             name="Vantea"
             image="url('vant.jpg')"
@@ -29,7 +29,7 @@ const CodingCard = () => {
             image="url('foodhub.jpg')"
           />
         </a>
-        <a href="https://bruxellesblog.netlify.app/">
+        <a href="https://bruxellesblog.netlify.app/" target="_blank">
           <Coding
             name="Bruxelles Blog"
             image="url('bruxelles.jpg')"
