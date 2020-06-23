@@ -10,11 +10,11 @@ const Vantea = () => {
     <div className="vanteapage">
       <Navbar />
 
+      <div className="vanteapageContent">
+        <Introduction />
 
-      <Introduction />
-      <hr />
-      <ParagraphList />
-
+        <ParagraphList />
+      </div>
       <Footer />
     </div>
   )

@@ -1,14 +1,15 @@
 .vanteaIntro {
- 
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  
+  margin-top: 2rem;
 
 
   .vanteaImage {
     max-width: 1000px;
+    width: 100%;
+   
     box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.2);
     display: flex;
     align-items: center;
@@ -23,6 +24,7 @@
   font-size: 16px;
   line-height: 143.2%;
   text-align: center;
+  padding: 1rem;
 }
 
 }

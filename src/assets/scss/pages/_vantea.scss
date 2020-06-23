@@ -1,13 +1,11 @@
 .vanteapage {
   background-color:#FBFBFB;
-  
-  hr {
-    border: 3px dashed #B1B1B1;
-    display: flex;
-    transform: rotate(90deg);
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-  }
+
+.vanteapageContent {
+  display: flex;
+  align-items: center;
+flex-direction: column;
+}
+
+
 }

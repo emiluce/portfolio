@@ -2,6 +2,7 @@ import React from "react";
 import "./style.scss";
 import Coding from "../Coding";
 
+
 const CodingCard = () => {
   return (
     <>
@@ -9,7 +10,7 @@ const CodingCard = () => {
         <h2>Websites</h2>
       </div>
       <div className="codingCard">
-        <a href="">
+        <a href="/vantea" target="_blank">
           <Coding
             name="Vantea"
             image="url('vant.jpg')"
