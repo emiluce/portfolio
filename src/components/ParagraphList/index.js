@@ -8,8 +8,7 @@ const ParagraphList = () => {
     <div>
 
       <div className="line">
-        <div className="hr"></div>
-        <i class="fal fa-angle-down"></i>
+        <img src="Arrow.png" alt="" />
       </div>
 
       <div className="paragraphList">
@@ -57,6 +56,8 @@ const ParagraphList = () => {
         </div>
 
       </div>
+
+
 
     </div>
   )
