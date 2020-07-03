@@ -1,12 +1,13 @@
 import React from "react";
 import "./style.scss";
-import Illustration from "../Illustration";
 
 
 const Atf = () => {
 
   return (
     <div className="atf">
+
+
 
 
 
@@ -18,15 +19,14 @@ const Atf = () => {
             <button type="button" className="btn btn-default">Dai un'occhiata ai miei lavori</button>
           </a>
         </div>
-
       </div>
 
 
+      <div className="secondAtf">
+        <img className="illustrationAtf" src="Human.png" alt="" />
+      </div>
 
-      <Illustration />
     </div>
-
-
 
 
 

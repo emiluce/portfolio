@@ -1,15 +1,11 @@
 .illustration {
-display: flex;
-justify-content: space-around;
-width: 100%;
+
+
   .illustrationRed {
-    max-width: 900px;
+    max-width: 550px;
+    height: auto;
+
+    
   }
 
-  .illustrationWireframe {
-    position: absolute;
-  margin: 1rem;
-  max-width: 600px;
-
   }
-}

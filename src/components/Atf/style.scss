@@ -1,25 +1,27 @@
 .atf {
-display: flex;
-flex-direction: row;
-justify-content: space-between;
+
+height:500px;
+
 display: grid;
 grid-template-columns: repeat(2, 1fr);
-
-
+width: 100%;
+max-width: 1440px;
 
 
 .introduction {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
-  padding: 1.5rem;
+  padding: 1rem;
   animation: upInterval2 1s ease-in-out alternate;
-  
+  width: 100%;
+
 
   h1{
   font-family: Futura Md BT;
   color: #838383;
+
 }
 
 
@@ -27,12 +29,13 @@ grid-template-columns: repeat(2, 1fr);
   background-color: #FF2B2B;
   font-family: lato;
   color: white;
-  padding: 0.5rem;
-  font-size: 18px;
+  font-size: 1.125em;
   margin-top: 1rem;
+  box-shadow: 1.5px 1.5px  black;
 &:hover {
 background-color: black;
 }
+
   a {
     text-decoration: none;
   
@@ -40,11 +43,18 @@ background-color: black;
 }
 
 }
+.secondAtf{
+display: flex;
+align-items: center;
+justify-content: flex-end;
 
+.illustrationAtf {
+margin-right: 1rem;
+max-width: 500px;
+width: 100%;
 
-
-
-
+}
+}
 }
 
 

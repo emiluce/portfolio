@@ -2,7 +2,17 @@
   background-color: white;
   font-family: Lato;
 
+  .nav-link {
+    &:hover {
+      font-weight: bolder;
+    }
+  }
   .navbar-brand{
     color: #FF2B2B;
+  }
+
+
+  .collapse {
+
   }
 }

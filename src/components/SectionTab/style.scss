@@ -12,15 +12,17 @@
     border-radius: 4px;
 
     .sectionTab {
-      background: rgba(0, 0, 0, 0.44);
+      background: rgba(0, 0, 0, 0.1);
       max-width: 300px;
       height: 200px;
       border-radius: 4px;
       display: flex;
       justify-content: center;
       align-items: center;
+
       cursor: pointer;
       transition: 0.5s background;
+
       &:hover {
         background: rgba(0, 0, 0, 0.6);
       }
@@ -28,13 +30,14 @@
 
     .sectionTabText {
       font-weight: 500;
-      font-size: 150%;
+      font-size: 135%;
       text-align: center;
       color: white;
+     
       
       &:hover {
     
-        font-size:170%;
+        font-size: 140%;
       }
 
     }

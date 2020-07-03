@@ -5,9 +5,10 @@ import SectionTab from "../SectionTab";
 const SectionTabList = () => {
   return (
     <>
-      <div id="imieilavori">
+      <div id="imieilavori" className="imieilavori">
         <h2>I miei lavori</h2>
       </div>
+
       <div className="sectionTabList">
         <a className="sectionTabLink" href="/coding">
           <SectionTab

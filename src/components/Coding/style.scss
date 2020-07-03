@@ -16,25 +16,29 @@
       max-width: 500px;
       height: 300px;
       border-radius: 4px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      
       cursor: pointer;
       transition: 0.5s background;
       &:hover {
-        background: rgba(0, 0, 0, 0.6);
+        background: rgba(0, 0, 0, 0.2);
       }
     }
 
     .sectionTabTextCode {
       font-weight: 500;
-      font-size: 30px;
-      text-align: center;
-      color: white;
-      
+      font-size: 24px;
+      display: flex;
+      justify-content: end;
+      align-items: flex-end;
+      color: #4F4A4A;
+      background-color:#F3F3F3;
+      border-radius: 4px 4px 0 0;
+      width: 100%;
+      padding: 5px;
+
       &:hover {
-        
-        font-size:200%;
+        transition: 0.5s font-weight;
+      
       }
 
     }

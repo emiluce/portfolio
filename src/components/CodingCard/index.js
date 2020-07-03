@@ -7,7 +7,7 @@ const CodingCard = () => {
   return (
     <>
       <div>
-        <h2>Websites</h2>
+        <h2 className="websites">Websites</h2>
       </div>
       <div className="codingCard">
         <a href="/vantea" target="_blank">
