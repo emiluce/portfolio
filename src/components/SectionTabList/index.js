@@ -6,7 +6,7 @@ const SectionTabList = () => {
   return (
     <>
       <div id="imieilavori" className="imieilavori">
-        <h2>I miei lavori</h2>
+        <h2></h2>
       </div>
 
       <div className="sectionTabList">

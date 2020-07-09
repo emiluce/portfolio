@@ -5,6 +5,7 @@ const Coding = ({
   //*Props: name *//
   name = "",
   image = "",
+  link = "link"
 }) => {
   return (
     <div
@@ -14,9 +15,11 @@ const Coding = ({
       }}
     >
       <div className="overlayCode">
-        <div className="sectionTabCode">
-          <p className="sectionTabTextCode">{name}</p>
-        </div>
+        <a href={link} target="_blank" rel="noopener noreferrer">
+          <div className="sectionTabCode">
+            <p className="sectionTabTextCode">{name}</p>
+          </div>
+        </a>
       </div>
     </div>
   );

@@ -10,33 +10,40 @@ const CodingCard = () => {
         <h2 className="websites">Websites</h2>
       </div>
       <div className="codingCard">
-        <a href="/vantea" target="_blank">
+
+
+        <div className="codingCardBox">
           <Coding
             name="Vantea"
             image="url('vant.jpg')"
+            link="/vantea"
           />
-        </a>
+        </div>
 
-        <a href="https://kiddos-website.netlify.app/" target="_blank" >
+        <div className="codingCardBox">
           <Coding
             name="Kiddos"
             image="url('kid.jpg')"
+            link="https://kiddos-website.netlify.app/"
           />
-        </a>
+        </div>
 
-        <a href="https://foodhub-project.netlify.app/" target="_blank">
+        <div className="codingCardBox">
           <Coding
             name="FoodHub"
             image="url('foodhub.jpg')"
+            link="https://foodhub-project.netlify.app/"
           />
-        </a>
-        <a href="https://bruxellesblog.netlify.app/" target="_blank">
+
+        </div>
+
+        <div className="codingCardBox">
           <Coding
             name="Bruxelles Blog"
             image="url('bruxelles.jpg')"
+            link="https://bruxellesblog.netlify.app/"
           />
-        </a>
-
+        </div>
 
 
 
