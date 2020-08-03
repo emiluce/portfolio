@@ -25,9 +25,18 @@ color: transparent;
 
 
 } 
+.linkPage {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 
+}
 .paragraphImage {
-  width:90%;
+  width:auto;
   height: auto;
-  
+  max-height: 500px;
+  max-width: 400px;
+
 }

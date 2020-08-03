@@ -24,7 +24,7 @@ const CodingCard = () => {
           <Coding
             name="Kiddos"
             image="url('kid.jpg')"
-            link="https://kiddos-website.netlify.app/"
+            link="/kiddos"
           />
         </div>
 

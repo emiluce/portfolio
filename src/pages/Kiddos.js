@@ -2,22 +2,22 @@ import React from 'react';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "../assets/scss/pages/_vantea.scss";
-import IntroductionVantea from '../components/IntroductionVantea';
-import ParagraphListVantea from "../components/ParagraphListVantea";
+import Introduction from '../components/Introduction';
+import ParagraphList from "../components/ParagraphList";
 
-const Vantea = () => {
+const Kiddos = () => {
   return (
     <div className="vanteapage">
       <Navbar />
 
       <div className="vanteapageContent">
-        <IntroductionVantea />
+        <Introduction />
 
-        <ParagraphListVantea />
+        <ParagraphList />
       </div>
       <Footer />
     </div>
   )
 }
 
-export default Vantea;
+export default Kiddos;

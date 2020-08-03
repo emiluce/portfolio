@@ -5,7 +5,9 @@ const Paragraph = ({
   number = "",
   name = "",
   text = "",
-  image = ""
+  image = "",
+  link = ""
+
 }) => {
   return (
     <div className="paragraph">
@@ -15,9 +17,11 @@ const Paragraph = ({
         <p className="paragraphText">{name}</p>
       </div>
 
-
-      <img className="paragraphImage" src={image} alt="" />
+      <a className="linkPage" href={link} target="_blank" rel="noopener noreferrer">
+        <img className="paragraphImage" src={image} alt="" />
+      </a>
       <p>{text}</p>
+
     </div>
   )
 }

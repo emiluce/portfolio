@@ -17,33 +17,40 @@ const SectionTabList = () => {
           />
         </a>
 
-        <a className="sectionTabLink" href="/tesi">
+        <a className="sectionTabLink" href="/Workinprogress">
           <SectionTab
             name="Tesi di laurea"
             image="url('tesi.jpg')"
           />
         </a>
 
-        <a className="sectionTabLink" href="/grafica">
+        <a className="sectionTabLink" href="/Workinprogress">
           <SectionTab
             name="Grafica"
             image="url('glitch.jpg')"
           />
         </a>
-        <a className="sectionTabLink" href="/student">
+        <a className="sectionTabLink" href="/Workinprogress">
           <SectionTab
             name="Student career"
             image="url('student.jpg')"
           />
         </a>
 
-        <a className="sectionTabLink" href="/illustrazione">
+        <a className="sectionTabLink" href="/Workinprogress">
           <SectionTab
             name="Illustrazione & Animazione"
             image="url('illustrazione.png')"
           />
         </a>
 
+
+        <a className="sectionTabLink" href="/Workinprogress">
+          <SectionTab
+            name="UX & UI"
+            image="url('ux.jpg')"
+          />
+        </a>
 
       </div>
     </>

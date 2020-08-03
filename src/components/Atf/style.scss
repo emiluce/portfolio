@@ -33,6 +33,10 @@ max-width: 1440px;
   color: white;
   margin-top: 1rem;
   box-shadow: 1.5px 1.5px  black;
+  animation: upInterval 1s ease-in-out infinite alternate;
+  &:hover {
+    animation-play-state: paused;
+  }
 &:hover {
 background-color: black;
 }
@@ -91,3 +95,14 @@ height: 250px;
      font-size: 12px;
    }
  }
+
+
+
+ @keyframes upInterval {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, -10px);
+  }
+}

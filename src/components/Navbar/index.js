@@ -15,7 +15,7 @@ const Navbar = () => {
               <a className="nav-link" href="#imieilavori">I miei lavori<span className="sr-only">(current)</span></a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Chi sono</a>
+              <a className="nav-link" href="/Workinprogress">Chi sono</a>
             </li>
           </ul>
         </div>

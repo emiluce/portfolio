@@ -1,0 +1,40 @@
+.tesi {
+
+.wip {
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0;
+
+.wipIllustration {
+  max-width: 500px;
+width: 100%;
+height: auto;
+}
+}
+
+.wipText {
+  display: flex;
+  align-items: center;
+justify-content: center;
+flex-direction: column;
+font-family: lato;
+font-size: 24px;
+font-weight: semi-bold;
+margin-bottom: 1rem;
+margin-top: 1rem;
+margin-bottom: 1rem;
+}
+
+.btn {
+
+  font-family: lato;
+  color:#FF2B2B ;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  &:hover {
+    background-color:#FF2B2B;
+    color: white;
+    }
+}
+}

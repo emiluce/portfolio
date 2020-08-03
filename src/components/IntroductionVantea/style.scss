@@ -1,4 +1,4 @@
-.introKiddos {
+.vanteaIntro {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -6,10 +6,9 @@
   margin-top: 2rem;
 
 
-  .imageKiddos {
-    max-width: 1000px;
+  .vanteaImage {
+    max-width: 500px;
     width: 100%;
-   
     box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.2);
     display: flex;
     align-items: center;
@@ -17,7 +16,7 @@
     
   }
 
-.introTextKiddos {
+.vanteaIntroText {
   max-width: 1000px;
   color: #868686;
   font-family: Lato;
