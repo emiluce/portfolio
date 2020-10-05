@@ -1,6 +1,6 @@
 const express = require("express");
 const mysql = require("mysql");
-const app = expresss();
+const app = express();
 
 
 const connection = mysql.createConnection({
@@ -10,34 +10,30 @@ const connection = mysql.createConnection({
   database: 'portfolio'
 });
 
-connection.connect((err) => {
-  if (err) {
-    return console.log(err);
+connection.connect(function (error) {
+  if (error) {
+    console.log("error");
+  } else {
+    console.log("MySQL connected...");
   }
-  console.log("MySQL connected...");
-}); s
-
-
-app.get("/", (req, res) => {
-  res.send({
-    msg: "Welcome to Emanuela's Portfolio API",
-  });
 });
+
+
+
+
+
+
+app.get("/", function (req, res) {
+
+  connection.query("SELECT * FROM tabella", function (error, rows, fields) {
+    if (error) {
+      console.log("Error in the query");
+    } else {
+      console.log("Successful query");
+    }
+  });
+})
 
 app.listen(5000);
-
-
-
-
-
-app.get("/", (req, res) {
-
-  connection.query("SELECT * FROM portfolio", (err)
-    if (err) {
-    console.log("Error in the query");
-  } else {
-    console.log("Successful query");
-  }
-});
 
 module.exports = connection;
